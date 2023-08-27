@@ -1,0 +1,33 @@
+.fundamento_cuidado {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .contenedor_fundamento {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .fundamento_item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6, .titulo7, .conclusion {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .descripcion1, .descripcion2, .descripcion3, .descripcion4, .descripcion5, .descripcion6, .dconclusion {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
