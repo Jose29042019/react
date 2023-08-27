@@ -4,6 +4,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './Componentes/Header/Header';
 import Banner from './Componentes/Banner/Banner';
+import Bienvenidos from './Componentes/Bienvenidos/Bienvenidos';
+import Tienda from './Componentes/Tienda/Tienda';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,6 +13,8 @@ root.render(
   <React.StrictMode>
     <Header/>
     <Banner/>
+    <Bienvenidos/>
+    <Tienda/>
   </React.StrictMode>
 );
 
