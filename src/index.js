@@ -6,6 +6,7 @@ import Header from './Componentes/Header/Header';
 import Banner from './Componentes/Banner/Banner';
 import Bienvenidos from './Componentes/Bienvenidos/Bienvenidos';
 import Tienda from './Componentes/Tienda/Tienda';
+import SeccionPost from './Componentes/Post/Post';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +16,7 @@ root.render(
     <Banner/>
     <Bienvenidos/>
     <Tienda/>
+    <SeccionPost/>
   </React.StrictMode>
 );
 

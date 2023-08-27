@@ -1,0 +1,34 @@
+#post {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.descripcion_post {
+    padding: 0px 50px;
+}
+
+.descripcion_post h2 {
+    font-size: 35px;
+    padding: 15px 0;
+    font-weight: 400;
+}
+
+.descripcion_post p {
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.img-post {
+    width: 100%;
+}
+
+.img-post img {
+    width: 250px;
+    border-radius: 5px;
+    max-height: 400px;
+}
