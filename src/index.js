@@ -9,6 +9,7 @@ import Tienda from './Componentes/Tienda/Tienda';
 import SeccionPost from './Componentes/Post/Post';
 import FundamentoCuidado from './Componentes/FundamentoCuidado/FundamentoCuidado';
 import Testimonios from './Componentes/Testimonios/Testimonios';
+import PreguntasFrecuentes from './Componentes/PreguntasFrecuentes/PreguntasFrecuentes';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,7 +22,7 @@ root.render(
     <SeccionPost/>
     <FundamentoCuidado/>
     <Testimonios/>
-    </>
+    <PreguntasFrecuentes/>
   </React.StrictMode>
 );
 
