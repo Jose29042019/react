@@ -1,19 +1,12 @@
 import React, { useState } from 'react';
 import './Calificanos.css';
 
+
 function Calificanos() {
   const [rating, setRating] = useState(null);
 
   const handleRatingChange = (value) => {
     setRating(value);
-  };
-
-  const handleSubmit = () => {
-    if (rating !== null) {
-      alert('¡Gracias por tu calificación!');
-    } else {
-      alert('Por favor, selecciona una calificación antes de enviar.');
-    }
   };
 
   return (
@@ -37,7 +30,7 @@ function Calificanos() {
           ))}
         </div>
         <textarea id="review" placeholder="Escribe tu opinión"></textarea>
-        <button id="btn-enviar" type="button" onClick={handleSubmit}>
+        <button id="btn-enviar" type="submit">
           Enviar Reseña
         </button>
       </div>
@@ -46,4 +39,3 @@ function Calificanos() {
 }
 
 export default Calificanos;
-

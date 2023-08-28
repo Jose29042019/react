@@ -11,6 +11,7 @@ import FundamentoCuidado from './Componentes/FundamentoCuidado/FundamentoCuidado
 import Testimonios from './Componentes/Testimonios/Testimonios';
 import PreguntasFrecuentes from './Componentes/PreguntasFrecuentes/PreguntasFrecuentes';
 import Contactanos from './Componentes/Contactanos/Contactanos';
+import Calificanos from './Componentes/Calificanos/Calificanos';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,6 +26,7 @@ root.render(
     <Testimonios/>
     <PreguntasFrecuentes/>
     <Contactanos/>
+    <Calificanos/>
   </React.StrictMode>
 );
 
