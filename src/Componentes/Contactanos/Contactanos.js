@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './Contactanos.css'; // Asegúrate de cambiar el nombre al archivo de estilos correcto
+import './Contactanos.css';
+
 
 function Contactanos() {
   const [submitted, setSubmitted] = useState(false);
@@ -22,7 +23,7 @@ function Contactanos() {
       </div>
       <form action="#" autoComplete="off" onSubmit={handleSubmit}>
         <label htmlFor="nombre">Ingresa tu nombre</label>
-        <input id="nombre" name="nombre" placeholder="Ingresa tu nombre" type="text" />
+        <input id="nombre" name="nombre" placeholder="Ingresa tu nombre" type="text" className='campo'/>
         <input type="email" name="email" placeholder="Ingresa tu correo" className="campo" />
         <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
         <input type="submit" name="enviar" value="Enviar mensaje" className="btn-enviar" />

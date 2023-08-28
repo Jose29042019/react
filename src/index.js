@@ -10,6 +10,7 @@ import SeccionPost from './Componentes/Post/Post';
 import FundamentoCuidado from './Componentes/FundamentoCuidado/FundamentoCuidado';
 import Testimonios from './Componentes/Testimonios/Testimonios';
 import PreguntasFrecuentes from './Componentes/PreguntasFrecuentes/PreguntasFrecuentes';
+import Contactanos from './Componentes/Contactanos/Contactanos';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,7 @@ root.render(
     <FundamentoCuidado/>
     <Testimonios/>
     <PreguntasFrecuentes/>
+    <Contactanos/>
   </React.StrictMode>
 );
 
