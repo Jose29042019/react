@@ -21,6 +21,7 @@ root.render(
     <SeccionPost/>
     <FundamentoCuidado/>
     <Testimonios/>
+    </>
   </React.StrictMode>
 );
 
