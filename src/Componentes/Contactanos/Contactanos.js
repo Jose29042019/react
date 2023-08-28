@@ -1,7 +1,11 @@
 import React from 'react';
 import './PreguntasFrecuentes.css';
 
-
+function PreguntasFrecuentes() {
+  const handleEnviar = () => {
+    alert('¡Gracias por calificarnos! Tu opinión es muy importante para nosotros.');
+    // Aquí puedes realizar acciones adicionales después de mostrar la alerta
+  };
 
   return (
     <section>
@@ -59,7 +63,7 @@ import './PreguntasFrecuentes.css';
           </div>
         </div>
       </div>
-      <button id="btn-enviar" >
+      <button id="btn-enviar" onClick={handleEnviar}>
         Enviar
       </button>
     </section>
