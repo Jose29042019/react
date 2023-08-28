@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Contactanos.css'; // Asegúrate de cambiar el nombre al archivo de estilos correcto
 
-function ContactForm() {
+function Contactanos() {
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (event) => {
@@ -21,7 +21,8 @@ function ContactForm() {
         <a href="#container-form"> <i className="bi bi-geo-alt-fill"></i> Sahagun, Cordoba</a>
       </div>
       <form action="#" autoComplete="off" onSubmit={handleSubmit}>
-        <input type="text" name="nombre" placeholder="Ingresa tu nombre" className="campo" />
+        <label htmlFor="nombre">Ingresa tu nombre</label>
+        <input id="nombre" name="nombre" placeholder="Ingresa tu nombre" type="text" />
         <input type="email" name="email" placeholder="Ingresa tu correo" className="campo" />
         <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
         <input type="submit" name="enviar" value="Enviar mensaje" className="btn-enviar" />
