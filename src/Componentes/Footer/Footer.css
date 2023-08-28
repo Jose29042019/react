@@ -1,0 +1,12 @@
+/* Footer.css */
+.footer {
+    position: fixed;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.texto-footer {
+    position: relative;
+    bottom: 5px;
+    left: 40%;
+}
