@@ -63,9 +63,6 @@ function PreguntasFrecuentes() {
           </div>
         </div>
       </div>
-      <button id="btn-enviar" onClick={handleEnviar}>
-        Enviar
-      </button>
     </section>
   );
 }
