@@ -98,3 +98,56 @@ header {
     color: #100357;
     cursor: pointer;
 }
+
+/**/
+.total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid #171427;
+}
+
+.total-titulo {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.total-precio {
+    margin-left: 0.5rem;
+}
+
+.btn-comprar {
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background: #100357;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-comprar:hover {
+    background: #171427;
+}
+
+#cerrar-carta {
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: #171427;
+    cursor: pointer;
+}
+
+.contenedor-titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.tienda {
+    margin-top: 2rem;
+}

@@ -13,6 +13,7 @@ import PreguntasFrecuentes from './Componentes/PreguntasFrecuentes/PreguntasFrec
 import Contactanos from './Componentes/Contactanos/Contactanos';
 import Calificanos from './Componentes/Calificanos/Calificanos';
 import Footer from './Componentes/Footer/Footer';
+import ContenedorTienda from './Componentes/ContenedorTienda/ContenedorTienda';
 
 function App() {
   return (
@@ -47,7 +48,7 @@ function PaginaSecundaria() {
   return (
     <React.StrictMode>
       <Header2 />
-      <Banner2 />
+      <ContenedorTienda/>
     </React.StrictMode>
   );
 }
