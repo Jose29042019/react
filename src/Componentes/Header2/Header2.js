@@ -1,10 +1,45 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import './Header2.css';
 
-function Header() {
-  return (
+function Header2() {
+  useEffect(() => {
+    // Seleccionar elementos del DOM y definir las funciones de eventos
+    const iconoCarta = document.querySelector('#icono-carrito');
+    const carta = document.querySelector('.carta');
+    const cerrarCarta = document.querySelector('#cerrar-carta');
+
+    const abrirCarta = () => {
+      carta.classList.add('activo');
+    };
+
+    const cerrarLaCarta = () => {
+      carta.classList.remove('activo');
+    };
+
+    iconoCarta.addEventListener('click', abrirCarta);
+    cerrarCarta.addEventListener('click', cerrarLaCarta);
+
+    const ready = () => {
+      // Lógica adicional cuando el DOM está listo
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', ready);
+    } else {
+      ready();
+    }
+
+    return () => {
+      // Limpiar los eventos al desmontar el componente
+      iconoCarta.removeEventListener('click', abrirCarta);
+      cerrarCarta.removeEventListener('click', cerrarLaCarta);
+    };
+  }, []);
+  
+    return (
     <header>
       <div className="container nav">
-        <a href="/index.html" className="logo">Plantas de hogar</a>
+        <a href="/" className="logo">Plantas de hogar</a>
         <i className="bi bi-bag-dash" id="icono-carrito"></i>
         {/* Carta */}
         <div className="carta">
@@ -26,4 +61,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header2;

@@ -1,0 +1,100 @@
+
+
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.logo {
+    font-size: 25px;
+    color: #171427;
+    font-weight: 300;
+}
+
+#icono-carrito {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+/*carta*/
+
+.carta {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    background: #fff;
+    transition: 0.3s;
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.carta.activo{
+    right: 0;
+}
+
+.titulo-carta {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.caja-carta {
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.carta-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.detalle-carta {
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.producto-titulo-carta {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.precio-carta {
+    font-weight: 500;
+}
+
+.cantidad-carta {
+    border: 1px solid #171427;
+    outline-color: #100357;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.remover-carta {
+    font-size: 24px;
+    color: #100357;
+    cursor: pointer;
+}
