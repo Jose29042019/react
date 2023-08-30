@@ -14,21 +14,13 @@ import Testimonios from './Componentes/Testimonios/Testimonios';
 import PreguntasFrecuentes from './Componentes/PreguntasFrecuentes/PreguntasFrecuentes';
 import Contactanos from './Componentes/Contactanos/Contactanos';
 import Calificanos from './Componentes/Calificanos/Calificanos';
+import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header/>
-    <Banner/>
-    <Bienvenidos/>
-    <Tienda/>
-    <SeccionPost/>
-    <FundamentoCuidado/>
-    <Testimonios/>
-    <PreguntasFrecuentes/>
-    <Contactanos/>
-    <Calificanos/>
+    <App/>
   </React.StrictMode>
 );
 

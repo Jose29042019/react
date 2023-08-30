@@ -22,7 +22,6 @@ function Contactanos() {
         <a href="#container-form"> <i className="bi bi-geo-alt-fill"></i> Sahagun, Cordoba</a>
       </div>
       <form action="#" autoComplete="off" onSubmit={handleSubmit}>
-        <label htmlFor="nombre">Ingresa tu nombre</label>
         <input id="nombre" name="nombre" placeholder="Ingresa tu nombre" type="text" className='campo'/>
         <input type="email" name="email" placeholder="Ingresa tu correo" className="campo" />
         <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
